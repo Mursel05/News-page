@@ -1,0 +1,294 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.esas-sekil {
+  width: 750px;
+}
+.hamisi {
+  width: 1150px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.linkler {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.kecid {
+  text-decoration: none;
+  color: gray;
+}
+.kecid:hover {
+  color: hsl(35, 77%, 62%);
+}
+.esas {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.sual-cavab {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 60px;
+  align-items: center;
+}
+.duyme-yazi {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.The-Bright {
+  font-weight: 700;
+  font-size: 60px;
+}
+.We-dive {
+  color: hsl(236, 13%, 42%);
+  width: 350px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.read-more {
+  width: 180px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  letter-spacing: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+.read-more:hover {
+  background-color: black;
+}
+.yan-teref {
+  background-color: black;
+  color: hsl(236, 13%, 42%);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.new {
+  font-size: 50px;
+  font-weight: 700;
+  color: hsl(5, 85%, 63%);
+}
+.yan-kecid {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.yan-kecid:hover {
+  color: hsl(5, 85%, 63%);
+}
+.xett {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.asagi {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+.novler {
+  display: flex;
+  flex-direction: row;
+}
+.yazilar {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.reqemler {
+  color: hsl(236, 13%, 42%);
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 7px;
+}
+.reqemin-asagisi {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.reqemin-asagisi:hover {
+  color: hsl(5, 85%, 63%);
+}
+.izah {
+  margin-top: 15px;
+  color: hsl(236, 13%, 42%);
+  font-weight: 400;
+}
+.navbar-button {
+  display: none;
+}
+@media (max-width: 1230px) {
+  .reqemin-asagisi {
+    margin-right: 10px;
+  }
+  .hamisi {
+    width: 1000px;
+  }
+  .esas {
+    display: flex;
+    flex-direction: column;
+  }
+  .yan-teref {
+    padding-bottom: 30px;
+  }
+  .esas-sekil {
+    width: 1000px;
+  }
+}
+@media (max-width: 860px) {
+  .hamisi {
+    width: 600px;
+  }
+
+  .esas-sekil {
+    width: 600px;
+  }
+  .The-Bright {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1070px) {
+  .We-dive {
+    font-size: 17px;
+  }
+  .hamisi {
+    width: 800px;
+  }
+  .esas-sekil {
+    width: 800px;
+  }
+  .The-Bright {
+    font-size: 40px;
+  }
+  .asagi {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 20px;
+  }
+}
+@media (max-width: 890px) {
+  .hamisi {
+    width: 600px;
+  }
+
+  .esas-sekil {
+    width: 600px;
+  }
+  .The-Bright {
+    font-size: 30px;
+  }
+  .asagi {
+    grid-template-columns: 300px 300px;
+  }
+}
+@media (max-width: 660px) {
+  .hamisi {
+    width: 500px;
+  }
+  .esas-sekil {
+    width: 500px;
+  }
+  .We-dive {
+    font-size: 15px;
+    width: 300px;
+  }
+  .The-Bright {
+    font-size: 25px;
+  }
+  .duyme-yazi {
+    margin-right: 0px;
+  }
+  .asagi {
+    display: flex;
+    flex-direction: column;
+  }
+  .linkler {
+    display: none;
+  }
+  .navbar-button {
+    display: inline;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+  .linkler-menyu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .navbar-menyu {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 550px) {
+  .hamisi {
+    width: 400px;
+  }
+  .esas-sekil {
+    width: 400px;
+  }
+  .We-dive {
+    font-size: 15px;
+    width: 250px;
+  }
+  .The-Bright {
+    font-size: 25px;
+  }
+  .duyme-yazi {
+    margin-right: 0px;
+  }
+  .asagi {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 460px) {
+  .hamisi {
+    width: 355px;
+  }
+  .esas-sekil {
+    width: 355px;
+  }
+  .sual-cavab {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .The-Bright {
+    font-size: 25px;
+    width: 250px;
+  }
+  .We-dive {
+    width: 280px;
+    margin-top: 25px;
+  }
+  .asagi {
+    display: flex;
+    flex-direction: column;
+  }
+  .yan-teref {
+    margin-top: 40px;
+  }
+}
+.hidden {
+  display: none;
+}
